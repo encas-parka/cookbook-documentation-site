@@ -1,0 +1,14 @@
+{{ $link := .Get "link" }}
+{{$link = $link | absURL }}
+
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+    <a href="{{ $link }}" aria-label="lien vers {{ .Get "title" }}">
+    <div class="card h-100 bg-faded-light">
+          <div class="card-body">
+              <h4 class="title">{{ .Get "title" }}</h4>
+              <a href="{{ $link }}" class="m-0 fs-6 text-danger"></a>
+              <p class="fs-6 p-01">{{ .Get "content" }}</p>
+          </div>
+      </div>
+  </a>
+</div>

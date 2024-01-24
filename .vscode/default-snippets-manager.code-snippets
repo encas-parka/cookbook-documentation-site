@@ -1,0 +1,47 @@
+{
+	"h-zoom-img": {
+		"prefix": "h-zoom-img",
+		"description": "h-zoom-img",
+		"scope": "markdown",
+		"body": [
+			" {{< zoomable-img img_content=\"img/recette-erreur-1.jpg\"  alt=\"recette-erreur-1.jpg\">}}"
+		]
+	},
+	"h-gallery": {
+		"prefix": "h-gallery",
+		"description": "h-gallery",
+		"scope": "markdown",
+		"body": [
+			"{{< row >}}",
+			"  {{< bs/col >}}",
+			"    {{< zoomable-img img_content=\"img/save/1-save-workflow.jpg\"  alt=\"publier plusieurs recettes\">}}",
+			"  {{< /bs/col >}}",
+			"",
+			"  {{< bs/col >}}",
+			"    {{< zoomable-img img_content=\"img/save/2-save-workflow.jpg\"  alt=\"publier plusieurs recettes\">}}",
+			"  {{< /bs/col >}}",
+			"{{< /row >}}",
+			""
+		]
+	},
+	"h-img_text": {
+		"prefix": "h-img_text",
+		"description": "h-img_text",
+		"scope": "markdown",
+		"body": [
+			"{{< img_text img_content=\"${1} \">}}",
+			"${2} ",
+			"{{< /img_text >}}"
+		]
+	},
+	"h-text_img": {
+		"prefix": "h-text_img",
+		"description": "h-text_img Shortcode for text and image side by side",
+		"scope": "markdown",
+		"body": [
+			"{{< text_img img_content=\"{${1} \">}}",
+			"{${2} ",
+			"{{< /text_img >}}"
+		]
+	}
+}
