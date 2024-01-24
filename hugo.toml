@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'fr-FR'
 title = 'Hugo Cookbook Documentation'
-themes = ['lotusdocs', "hugo-photoshop5-gallery"]
+themes = ['lotusdocs-mod', "hugo-photoshop5-gallery"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
