@@ -3,6 +3,7 @@ module github.com/encas-parka/cookbook-documentation-site
 go 1.21.5
 
 require (
+	github.com/colinwilson/lotusdocs v0.1.0 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
