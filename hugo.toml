@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'fr-FR'
 title = 'Hugo Cookbook Documentation'
-themes = ["hugo-photoshop5-gallery"]
+themes = ["lotusdocs", "hugo-photoshop5-gallery"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -22,9 +22,9 @@ defaultContentLanguage = 'fr'
   # uncomment line below for temporary local development of module,
   # when using a 'theme' as a git submodule or git cloned files
   # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
-  [[module.imports]]
-    path = "github.com/colinwilson/lotusdocs"
-    disable = false
+  # [[module.imports]]
+  #   path = "github.com/colinwilson/lotusdocs"
+  #   disable = false
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
     disable = false
